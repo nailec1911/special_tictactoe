@@ -80,6 +80,8 @@ i = 0
 while (s := 3) and (the whole condition) and (i := i + 1): pass
 ```
 So yes, this is a code without no statement.
+Declaring a variable on a previous line as above (with a while) also allow to do a loop for the input, so this is what I made in the oneline_bis version.
+Exactly the same thing, but with a loop to ask for input.
 
 ## Conclusion
 Here is the list of what I used for the one-line version
