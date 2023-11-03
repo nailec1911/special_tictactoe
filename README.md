@@ -1,6 +1,6 @@
 # special_tictactoe
 Different version of a tictactoe in python, but with some (a lot) constraints.\
-Yes, the code in this repo is ugly, the goal of this project is the exact opposite of clean code.
+Yes, the code in this repo is ugly, the goal of this project is to code with constraints, so the exact opposite of clean code.
 
 ## What is it ?
 Here are different version of the famous tictactoe, to play in the terminal, depending on the version, it's 1 or 2 player and you can choose the map size. A map of size 3 is the standard grid, you need to do a line of the map's size to win.\
@@ -8,8 +8,8 @@ Each version was made with different constraints, from the easiest to the hardes
 
 ## Why ?
 Why not ? 
-Firstly I wanted to do a tictactoe to learn tu use PyGames, but as I started to do the code, I thought of a lot of things that I could do in single line.\
-Hence, I had the idea to do a tictactoe with a lot of constraints, in the objective to learn new things, and exercise my brain a little.\
+I wanted to do a tictactoe to learn to use PyGames, but as I started to do the code, I thought of a lot of things that I could do in single line.\
+Hence, I had the idea to do a tictactoe with a lot of constraints, in the objective to learn new things, and make my brain work.\
 (I still don't know anything about PyGame).
 
 ## How to use
@@ -27,15 +27,15 @@ or
 ```
 * Enjoy !
 
-## The different version
-Firstly, whatever the user do, the code must not crash.\
+## The different versions
+Firstly, whatever the user do, the code must not crash.
 ### Main rules :
 All the functions are just one line, meaning :
 ```python
 def foo(param):
   return something(param)
 ```
-and the function can't be longer, and never more than 4 parameters.\
+A function can't have more than 4 parameters.\
 As few lines as possible outside functions, so just what is needed to start the game.\
 Obviously, I tried to make a DRY code, with a simple logic, no use of weird functions, no import, and 0 "powerful" keyword or function (like lambda).\
 And has my code is always clean, there is no endless loop, no break, no continue ...
@@ -44,7 +44,7 @@ And has my code is always clean, there is no endless loop, no break, no continue
 ```
 ./tictactoe.py
 ```
-In this version , the game will ask you to enter a number while the value you enter is wrong. The map is not resizable, and you can only play against the ordi (which is really bad).\
+In this version , the game will ask you to enter a number while the value you enter is wrong. The map is not resizable, and you can only play against the computer (which is really bad).\
 I didn't add constraints in this version, the objective was to use it as a "base" for the other versions.
 
 ### Second version
@@ -72,7 +72,7 @@ Only one line outside of funtion (call of the first function to launch the game)
 In this version, you can change the map size, but you can also choose (at the begining of the game) if it is 1v1 or against the computer.\
 I you input a wrong value (other than a number, or an occupied box), you loose. Sadly, I didn't find a way to ask again for input in one line. (for all numbers nb % size is used).\
 #### New constraints : one line
-This is exaclty what it say, there is only one line of code (I added comment to explain it).\
+This is exaclty what it says, there is only one line of code (I added comment to explain it).\
 It is also without ternary (no ``if`` and ``else``).\
 And it is a single condition, quite big, but just one.\
 This mean that if you allow one line to create the count, you could do something like :
