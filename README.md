@@ -69,6 +69,7 @@ Only one line outside of funtion (call of the first function to launch the game)
 ./tictactoe_oneline.py
 ```
 In this version, you can change the map size, but you can also choose (at the begining of the game) if it is 1v1 or against the computer.\
+I you input a wrong value (other than a number, or an occupied box), you loose. Sadly, I didn't find a way to ask again for input in one line. (for all numbers nb % size is used).\
 #### New constraints : one line
 This is exaclty what it say, there is only one line of code (I added comment to explain it).\
 It is also without ternary (no ``if`` and ``else``).\
