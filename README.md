@@ -1,5 +1,6 @@
 # special_tictactoe
-Different version of a tictactoe in python, but with some (a lot) constraints
+Different version of a tictactoe in python, but with some (a lot) constraints.\
+Yes, the code in this repo is ugly, the goal of this project is the exact opposite of clean code.
 
 ## What is it ?
 Here are different version of the famous tictactoe, to play in the terminal, depending on the version, it's 1 or 2 player and you can choose the map size. A map of size 3 is the standard grid, you need to do a line of the map's size to win.\
