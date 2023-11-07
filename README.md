@@ -1,6 +1,7 @@
 # special_tictactoe
 Different version of a tictactoe in python, but with some (a lot) constraints.\
-Yes, the code in this repo is ugly, the goal of this project is to code with constraints, so the exact opposite of clean code.
+Yes, the code in this repo is ugly, the goal of this project is to code with constraints, so the exact opposite of clean code.\
+This is the first time I try to do this type of stuff, so there is probably a lot of room for improvement.
 
 ## What is it ?
 Here are different version of the famous tictactoe, to play in the terminal, depending on the version, it's 1 or 2 player and you can choose the map size. A map of size 3 is the standard grid, you need to do a line of the map's size to win.\
@@ -115,6 +116,16 @@ Here is the list of what I used for the one-line version
   ```
 
 not a lot of things.
+
+## More
+### Golf version
+The objective of code golf is to solve a problem in the least number of characters.\
+I didn't use automatic golfer (some of them put your utf-8 code in utf-16, reducing by more than 50% the number of characters).\
+As the objective is only to do short code, I did it with 0 constraints.\
+Functionalities:
+* 2 players or ai (choice at the beginning)
+* any board size (change the first var `s=3` to the desired size)
+
 
 
 
